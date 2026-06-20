@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Primer página</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            p{
+                color: #1ea11e;
+                text-decoration: underline;
+                background-color: beige;
+                font-style: italic;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            tr{
+                border-bottom: 1px solid #ddd;
+            }
+            th,td{
+                padding-top: 10px;
+                padding-bottom: 20px;
+                padding-left: 30px;
+                padding-right: 40px;
+            }
+            td:hover,th:hover,img:hover{
+                background-color: #00ff00;
+                border: 3px solid black;
+                color: white;
+            }
+            #encabezado{
+                text-align: center;
+                background-color: antiquewhite;
+            }
+            #contenido{
+                background-color: #ddd;
+                float: left;
+                width: 80%;
+            }
+            #menu{
+                float: left;
+                background-color: aliceblue;
+                width: 20%;
+            }
+            #pie{
+                float: left;
+                background-color: antiquewhite;
+                width: 100%;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="encabezado">
+            <h1 style="color: aqua;">Primer Página Web</h1>
+            <h2 style="color: #00ff00;">Primer Página Web</h2>
+            <h3 style="color: rgb(00,255,00);">Primer Página Web</h3>
+        </div>
+
+        <div id="menu">
+        <h2>Días</h2>
+        <ul>
+            <li>Lunes
+                <ol>
+                    <li>Matutino</li>
+                    <li>Vespertino</li>
+                    <li>Nocturno</li>
+                </ol>
+            </li>
+            <li>Martes</li>
+            <li>Miércoles</li>
+            <li>Jueves</li>
+            <li>Viernes</li>
+        </ul>
+        <h2>Herramientas</h2>
+        <ol type="I">
+            <li>Martillo</li>
+            <li>Pinzas</li>
+            <li>Matraca</li>
+            <li>Desarmador</li>
+            <li>Taladro</li>
+        </ol>
+        </div>
+
+        <div id="contenido">
+        <img src="fiestast.jpg" alt="Imagen de Fiesta st" style="width: 600px; height: 314px;">
+
+        <p style="text-align: justify">
+            Este es un párrafo...
+            Google LLC (pronunciado /ˈɡuːɡəl/ (escucharⓘ), más conocida 
+            como Google) es una empresa de tecnología multinacional con 
+            sede en California, Estados Unidos, que se centra en inteligencia
+             artificial, publicidad en línea. 
+             <!--BR es para un salto de línea-->
+             <br><br>
+             Tecnología de motores de 
+             búsqueda, computación en la nube, software, computación 
+             cuántica, comercio electrónico y electrónica de consumo.[2]
+        </p>
+        <hr>
+        <p style="text-align: justify">      
+             Es una de las marcas más valiosas del mundo debido a su dominio 
+             del mercado, recopilación de datos y ventajas tecnológicas en 
+             el campo de la inteligencia artificial. Es considerada una de 
+             las cinco grandes compañías tecnológicas junto con Apple, 
+             Amazon, Microsoft y Meta Platforms.[3][4][5
+        </p>
+        <h1>Lista de autos</h1>
+        <table style="width: 80%;">
+            <tr>
+                <th colspan="2">Modelo/Marca</th>
+                <th>Año</th>
+                <th>Color</th>
+                <th>Motor</th>
+            </tr>
+            <tr>
+                <td>Fiesta st</td>
+                <td>Ford</td>
+                <td rowspan="4">2016</td>
+                <td>Blanco</td>
+                <td>1.6 T</td>
+            </tr>
+            <tr>
+                <td>Camaro</td>
+                <td>Chevrolet</td>
+                <td rowspan="2">Amarillo</td>
+                <td>5.4</td>
+            </tr>
+            <tr>
+                <td>Mustang</td>
+                <td>Ford</td>
+                <td>4.0</td>
+            </tr>
+            <tr>
+                <td>Dodge</td>
+                <td>Challenger</td>
+                <td>Negro</td>
+                <td>5.0</td>
+            </tr>
+        </table>
+        </div>
+
+        
+
+        <div id="pie">
+            <a href="https://www.google.com">Ir a Google</a>
+            <br>
+            <a href="info.html">Ir a información</a>
+        </div>
+    </body>
+</html>
